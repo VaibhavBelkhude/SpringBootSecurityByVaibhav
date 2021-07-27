@@ -1,0 +1,13 @@
+server:
+  port: 9696
+spring:
+  application:
+    name: OAuthSecurityApp
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook: 
+            client-id: 192697722906453
+            client-secret: 7489f9cdfef399139ac3e549ecda6a0c
+#url:->   http://localhost:9696/data
